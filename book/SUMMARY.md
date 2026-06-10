@@ -18,6 +18,7 @@
 - 示例建库脚本：`examples/university_schema.sql`
 - 示例数据脚本：`examples/university_data.sql`
 - 练习脚本：`examples/practice.sql`
+- 自检脚本：`examples/self_check.sql`
 
 ## 建议学时
 

@@ -17,6 +17,7 @@
 - `book/`：教材正文与课程章节
 - `examples/`：示例数据库、测试数据与练习脚本
 - `examples/self_check.sql`：练习后的数据完整性自检脚本
+- `examples/answer_key.sql`：课堂练习参考答案，事务题默认回滚，便于重复运行
 
 ### 学习路径建议
 
@@ -51,6 +52,7 @@
 - `book/`: textbook chapters and course materials
 - `examples/`: sample schema, seed data, and practice SQL
 - `examples/self_check.sql`: post-practice data integrity self-check queries
+- `examples/answer_key.sql`: answer key for practice queries; the transaction exercise rolls back by default for repeatable classroom runs
 
 ### Suggested learning path
 

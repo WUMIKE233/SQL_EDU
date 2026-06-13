@@ -18,6 +18,29 @@
 - `examples/`：示例数据库、测试数据与练习脚本
 - `examples/self_check.sql`：练习后的数据完整性自检脚本
 - `examples/answer_key.sql`：课堂练习参考答案，事务题默认回滚，便于重复运行
+- `src/`：本地复习前端与题库数据
+- `materials/`：题库整理说明与材料抽取笔记
+
+### 本地复习前端
+
+本仓库包含一个基于 React + Vite 的复习前端，题库覆盖 SQL 语言、关系模型、规范化、事务恢复、存储过程与触发器、视图与权限等专题。
+
+本地运行：
+
+```powershell
+npm install
+npm run dev -- --port 5188
+```
+
+打开：`http://127.0.0.1:5188`
+
+公网托管：本仓库配置了 GitHub Pages Actions，推送到 `main` 后会自动构建并发布静态站点。
+
+公网地址：
+
+```text
+https://wumike233.github.io/SQL_EDU/
+```
 
 ### 学习路径建议
 
@@ -53,6 +76,29 @@
 - `examples/`: sample schema, seed data, and practice SQL
 - `examples/self_check.sql`: post-practice data integrity self-check queries
 - `examples/answer_key.sql`: answer key for practice queries; the transaction exercise rolls back by default for repeatable classroom runs
+- `src/`: local review frontend and question bank data
+- `materials/`: question bank notes and extraction notes
+
+### Local Review Frontend
+
+This repository includes a React + Vite review frontend. The question bank covers SQL, relational models, normalization, transactions and recovery, stored procedures and triggers, views, and permissions.
+
+Run locally:
+
+```powershell
+npm install
+npm run dev -- --port 5188
+```
+
+Open: `http://127.0.0.1:5188`
+
+Public hosting: this repository is configured with GitHub Pages Actions. Every push to `main` builds and publishes the static site automatically.
+
+Public URL:
+
+```text
+https://wumike233.github.io/SQL_EDU/
+```
 
 ### Suggested learning path
 
